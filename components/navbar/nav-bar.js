@@ -7,10 +7,10 @@ export default function NavBar({ className, variant, href, children }) {
 	const addClassName = className ? `${className}` : "";
 	return (
 		<Link href={href}>
-			<a className={`navbar-content cursor-pointer ${addClassName}`}>
+			<div className={`navbar-content cursor-pointer ${addClassName}`}>
 				<NavIcon variant={variant} />
 				<NavItem>{children}</NavItem>
-			</a>
+			</div>
 		</Link>
 	);
 }
