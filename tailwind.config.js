@@ -35,7 +35,7 @@ module.exports = {
 					800: "#434547",
 					900: "#3b3c3e",
 				},
-				active: "#E6F3EF",
+				active: "#e2effe",
 				hover: "#F5F5F5",
 			},
 		},
@@ -46,7 +46,7 @@ module.exports = {
 				".just-comment": {
 					"--color-primary": "#1e56d7",
 					"--color-secondary": "#5F6368",
-					"--color-active": "#E6F3EF",
+					"--color-active": "#e2effe",
 				},
 				".header": {
 					width: "100%",
@@ -84,20 +84,14 @@ module.exports = {
 					"flex-grow": "1",
 					color: "#5F6368",
 				},
-				".navbar-content:hover:not(.navbar-active)": {
-					"border-radius": "10px",
-					margin: "8px 0px",
-					"background-color": "#F5F5F5",
-					color: "#01875f",
-				},
 				".navbar-icon": {
 					"font-size": "30px",
 				},
 				".navbar-active": {
 					"border-radius": "10px",
 					margin: "8px 0px",
-					"background-color": "#E6F3EF",
-					color: "#01875f",
+					"background-color": "#e2effe",
+					color: "#1e56d7",
 				},
 			};
 			addUtilities(utilities);
