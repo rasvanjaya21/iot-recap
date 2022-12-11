@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "aos": "^3.0.0-beta.6",
     "boxicons": "^2.1.4",
     "chart.js": "^4.0.1",
