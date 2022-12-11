@@ -43,6 +43,7 @@ ChartJS.register(
 );
 
 import { Bar, Line, Scatter, Bubble } from "react-chartjs-2";
+import Link from "next/link";
 
 const hariPertamaBar = {
 	labels: [
@@ -372,7 +373,7 @@ export default function Gallery() {
 	return (
 		<>
 			<Head>
-				<title>Result Himam Konsulat Malang</title>
+				<title>Result Recap App</title>
 			</Head>
 
 			<AppBar>
@@ -422,69 +423,81 @@ export default function Gallery() {
 					<div className="overflow-y-auto overflow-x-hidden  flex-grow">
 						<ul className="flex flex-col py-4 space-y-1">
 							<li className="pt-12 sm:pt-0">
-								<a
+								<Link
 									href="/"
 									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
 								>
+									<a>
+
 									<span className="inline-flex justify-center items-center ml-11">
 										<HomeIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
 										Beranda
 									</span>
-								</a>
+									</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="/result"
 									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
 								>
-									<span className="inline-flex justify-center items-center ml-11">
-										<EnvelopeIcon className="w-4 h-4" />
-									</span>
-									<span className="ml-3 text-sm tracking-wide truncate">
-										Waktu
-									</span>
-								</a>
+									<a>
+										<span className="inline-flex justify-center items-center ml-11">
+											<EnvelopeIcon className="w-4 h-4" />
+										</span>
+										<span className="ml-3 text-sm tracking-wide truncate">
+											Waktu
+										</span>
+									</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href=""
 									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
 								>
-									<span className="inline-flex justify-center items-center ml-11">
-										<ChatBubbleBottomCenterTextIcon className="w-4 h-4" />
-									</span>
-									<span className="ml-3 text-sm tracking-wide truncate">
-										Hasil
-									</span>
-								</a>
+									<a>
+										<span className="inline-flex justify-center items-center ml-11">
+											<ChatBubbleBottomCenterTextIcon className="w-4 h-4" />
+										</span>
+										<span className="ml-3 text-sm tracking-wide truncate">
+											Hasil
+										</span>
+									</a>	
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="#"
 									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
 								>
-									<span className="inline-flex justify-center items-center ml-11">
-										<BellIcon className="w-4 h-4" />
-									</span>
-									<span className="ml-3 text-sm tracking-wide truncate">
-										Galeri
-									</span>
-								</a>
+									<a>
+										<span className="inline-flex justify-center items-center ml-11">
+											<BellIcon className="w-4 h-4" />
+										</span>
+										<span className="ml-3 text-sm tracking-wide truncate">
+											Galeri
+										</span>
+									</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="#"
 									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
 								>
-									<span className="inline-flex justify-center items-center ml-11">
-										<ClipboardDocumentListIcon className="w-4 h-4" />
-									</span>
-									<span className="ml-3 text-sm tracking-wide truncate">
-										Tentang
-									</span>
-								</a>
+									<a>
+
+										<span className="inline-flex justify-center items-center ml-11">
+											<ClipboardDocumentListIcon className="w-4 h-4" />
+										</span>
+										<span className="ml-3 text-sm tracking-wide truncate">
+											Tentang
+										</span>
+									</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
