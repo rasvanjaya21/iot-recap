@@ -179,10 +179,10 @@ export default function Result() {
 			{/* data here */}
 			<div className="pt-10 sm:pt-0 h-full pl-5 sm:pl-56 pb-28 mr-5 sm:mr-14 bg-white">
 				<div className="sticky top-0 z-10 overflow-x-auto pl[-56px] ">
-					<table className="pt-20 w-full text-sm text-left text-gray-500 dark:text-gray-400">
-						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">
+					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
+						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
 							Data Hari Pertama
-							<p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
+							<p className="mt-1 text-sm font-normal text-gray-500 ">
 								Deskripsi 
 							</p>
 						</caption>
@@ -198,10 +198,10 @@ export default function Result() {
 				<Table />
 
 				<div className="sticky top-0 z-10 overflow-x-auto pl[-56px]">
-					<table className="pt-20 w-full text-sm text-left text-gray-500 dark:text-gray-400">
-						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">
+					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
+						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
 							Data Hari Kedua
-							<p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
+							<p className="mt-1 text-sm font-normal text-gray-500 ">
 								Deskripsi
 							</p>
 						</caption>
