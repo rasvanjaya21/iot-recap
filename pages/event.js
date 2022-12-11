@@ -6,29 +6,29 @@ export default function Event() {
 	return (
 		<>
 			<Head>
-				<title>Event Recap App</title>
+				<title>Waktu Recap App</title>
 			</Head>
 
 			<AppBar>
-				<span className="text-primary">Event</span>
+				<span className="text-primary">Waktu</span>
 				<span className="text-secondary"> Recap App</span>
 			</AppBar>
 
-			<div className="fixed flex bg-white px-2 bottom-0 w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[5]">
+			<div className="flex fixed sm:hidden bg-white px-2 bottom-[-0.7px] w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[5]">
 				<NavBar href="/" variant="home">
-					Home
+					Beranda
 				</NavBar>
 				<NavBar className="navbar-active" href="/event" variant="active-event">
-					Event
+					Waktu
 				</NavBar>
-				<NavBar href="/story" variant="story">
-					Story
+				<NavBar href="/result" variant="result">
+					Hasil
 				</NavBar>
 				<NavBar href="/gallery" variant="gallery">
-					Gallery
+					Galeri
 				</NavBar>
 				<NavBar href="/about" variant="about">
-					About
+					Tentang
 				</NavBar>
 			</div>
 
@@ -36,7 +36,7 @@ export default function Event() {
 			<div className="flex w-screen h-screen mx-auto" data-aos="fade-up">
 				<h1 className="mx-auto self-center">
 					Currently, you are interacting with
-					<span className="text-green-800 "> Event 🎉</span>
+					<span className="text-primary-800 "> Waktu 🎉</span>
 				</h1>
 			</div>
 		</>
