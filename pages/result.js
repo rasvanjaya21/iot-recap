@@ -6,29 +6,29 @@ export default function Gallery() {
 	return (
 		<>
 			<Head>
-				<title>Story Himam Konsulat Malang</title>
+				<title>result Himam Konsulat Malang</title>
 			</Head>
 
 			<AppBar>
-				<span className="text-primary">Story</span>
-				<span className="text-secondary"> Himam Konsulat Malang</span>
+				<span className="text-primary">Hasil</span>
+				<span className="text-secondary"> Recap App</span>
 			</AppBar>
 
 			<div className="flex fixed sm:hidden bg-white px-2 bottom-[-0.7px] w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[5]">
 				<NavBar href="/" variant="home">
-					Home
+					Beranda
 				</NavBar>
 				<NavBar href="/event" variant="event">
-					Event
+					Waktu
 				</NavBar>
-				<NavBar className="navbar-active" href="/story" variant="active-story">
-					Story
+				<NavBar className="navbar-active" href="/result" variant="active-result">
+					Hasil
 				</NavBar>
 				<NavBar href="/gallery" variant="gallery">
-					Gallery
+					Galeri
 				</NavBar>
 				<NavBar href="/about" variant="about">
-					About
+					Tentang
 				</NavBar>
 			</div>
 
@@ -36,7 +36,7 @@ export default function Gallery() {
 			<div className="flex w-screen h-screen mx-auto" data-aos="fade-up">
 				<h1 className="mx-auto self-center">
 					Currently, you are interacting with
-					<span className="text-green-800 "> Gallery 🎉</span>
+					<span className="text-primary-800 "> Hasil 🎉</span>
 				</h1>
 			</div>
 		</>
