@@ -93,6 +93,20 @@ module.exports = {
 					"background-color": "#e2effe",
 					color: "#1e56d7",
 				},
+				".gradient-bottom": {
+					zIndex: 2,
+					right: "0",
+					bottom: "0",
+					left: "0",
+					height: "200px",
+					background: [
+						"url(data:image/svg+xml;base64,alotofcodehere)",
+						"-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)))",
+						"-webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%)",
+						"-ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%)",
+						"linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%)",
+					],
+				},
 			};
 			addUtilities(utilities);
 		}),

@@ -1,3 +1,3 @@
-const words = ["Recap App"];
+const words = ["Recapap"];
 
 export default words;

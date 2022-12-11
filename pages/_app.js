@@ -2,6 +2,7 @@ import Router from "next/router";
 import nProgress from "nprogress";
 import "@styles/nprogress.css";
 import "@styles/globals.css";
+import "boxicons/css/boxicons.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React from "react";
