@@ -48,7 +48,7 @@ export default function Index() {
 	return (
 		<>
 			<Head>
-				<title>Home Recapap</title>
+				<title>Selamat Datang di Recapap</title>
 			</Head>
 
 			{/* mobile nav-bar */}
@@ -95,7 +95,7 @@ export default function Index() {
 						<div className="text-xl font-bold">
 							<div className="opacity-0 sm:opacity-100 fixed sm:relative inline-flex items-end">
 								<PencilSquareIcon className="w-10 h-10" />
-								{"."}Recap App
+								{"."}Recapap
 							</div>
 						</div>
 					</div>

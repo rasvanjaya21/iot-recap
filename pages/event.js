@@ -24,7 +24,7 @@ export default function Event() {
 	return (
 		<>
 			<Head>
-				<title>Observasi Recapap</title>
+				<title>Waktu Observasi</title>
 			</Head>
 
 			{/* mobile nav-bar */}
@@ -72,7 +72,7 @@ export default function Event() {
 						<div className="text-xl font-bold">
 							<div className="opacity-0 sm:opacity-100 fixed sm:relative inline-flex items-end">
 								<PencilSquareIcon className="w-10 h-10" />
-								{"."}Recap App
+								{"."}Recapap
 							</div>
 						</div>
 					</div>

@@ -47,7 +47,7 @@ export default function About() {
 	return (
 		<>
 			<Head>
-				<title>Tentang Recapap</title>
+				<title>Profile Observer</title>
 			</Head>
 			
 			{/* mobile nav-bar */}
@@ -90,7 +90,7 @@ export default function About() {
 						<div className="text-xl font-bold">
 							<div className="opacity-0 sm:opacity-100 fixed sm:relative inline-flex items-end">
 								<PencilSquareIcon className="w-10 h-10" />
-								{"."}Recap App
+								{"."}Recapap
 							</div>
 						</div>
 					</div>
