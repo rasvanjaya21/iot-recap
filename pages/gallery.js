@@ -25,19 +25,19 @@ export default function Gallery() {
 			{/* mobile nav-bar */}
 			<div className="flex fixed sm:hidden bg-white px-2 bottom-[-0.7px] w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[10]">
 				<Link href="/" className="navbar-content cursor-pointer">
-					<i className="navbar-icon bx bx-home" />
+					<i className="text-[30px] bx bx-home" />
 					<span className="pt-0.5 text-xs">
 						<b>Beranda</b>
 					</span>
 				</Link>
 				<Link href="/event" className="navbar-content cursor-pointer ">
-					<i className="navbar-icon bx bx-calendar" />
+					<i className="text-[30px] bx bx-calendar" />
 					<span className="pt-0.5 text-xs">
 						<b>Waktu</b>
 					</span>
 				</Link>
 				<Link href="/result" className="navbar-content cursor-pointer ">
-					<i className="navbar-icon bx bx-bar-chart-square" />
+					<i className="text-[30px] bx bx-bar-chart-square" />
 					<span className="pt-0.5 text-xs">
 						<b>Hasil</b>
 					</span>
@@ -46,13 +46,13 @@ export default function Gallery() {
 					href="/gallery"
 					className="navbar-content cursor-pointer navbar-active"
 				>
-					<i className="navbar-icon bx bxs-image-alt bx-tada" />
+					<i className="text-[30px] bx bxs-image-alt bx-tada" />
 					<span className="pt-0.5 text-xs">
 						<b>Galeri</b>
 					</span>
 				</Link>
 				<Link href="/about" className="navbar-content cursor-pointer ">
-					<i className="navbar-icon bx bx-group" />
+					<i className="text-[30px] bx bx-group" />
 					<span className="pt-0.5 text-xs">
 						<b>Profile</b>
 					</span>

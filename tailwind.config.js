@@ -67,15 +67,6 @@ module.exports = {
 				".no-scrollbar::-webkit-scrollbar": {
 					display: "none",
 				},
-				".appbar": {
-					position: "fixed",
-					padding: "0px 8px",
-					top: "0",
-					width: "100%",
-					"box-shadow": "0px 0px 3px rgba(0,0,0,0.20)",
-					"background-color": "white",
-					"z-index": "5",
-				},
 				".navbar-content": {
 					display: "flex",
 					"flex-direction": "column",
@@ -83,9 +74,6 @@ module.exports = {
 					"justify-content": "center",
 					"flex-grow": "1",
 					color: "#5F6368",
-				},
-				".navbar-icon": {
-					"font-size": "30px",
 				},
 				".navbar-active": {
 					"border-radius": "10px",
