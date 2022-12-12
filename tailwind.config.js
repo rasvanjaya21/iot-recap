@@ -62,13 +62,13 @@ module.exports = {
 					"align-items": "center",
 					"justify-content": "center",
 					"flex-grow": "1",
-					color: "#5F6368",
+					color: "#83888d",
 				},
 				".navbar-active": {
 					"border-radius": "10px",
 					margin: "8px 0px",
 					"background-color": "#e2effe",
-					color: "#1e56d7",
+					color: "#3c89f5",
 				},
 				".gradient-bottom": {
 					zIndex: 2,

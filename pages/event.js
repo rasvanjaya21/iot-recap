@@ -78,7 +78,7 @@ export default function Event() {
 							<li className="pt-12 sm:pt-5">
 								<Link
 									href="/"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<HomeIcon className="w-4 h-4" />
@@ -91,7 +91,7 @@ export default function Event() {
 							<li>
 								<Link
 									href="/event"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl bg-primary-100 text-primary hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl bg-primary-100 text-primary-500 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<CalendarDaysIcon className="w-4 h-4" />
@@ -104,7 +104,7 @@ export default function Event() {
 							<li>
 								<Link
 									href="/result"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<ChartBarIcon className="w-4 h-4" />
@@ -117,7 +117,7 @@ export default function Event() {
 							<li>
 								<Link
 									href="/gallery"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<PhotoIcon className="w-4 h-4" />
@@ -130,7 +130,7 @@ export default function Event() {
 							<li>
 								<Link
 									href="/about"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<UsersIcon className="w-4 h-4" />
@@ -160,18 +160,9 @@ export default function Event() {
 				</div>
 
 				<div className="container ">
-					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+					<div className="grid grid-cols-1 ">
+						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-28 px-20 bg-primary-100">
 							1
-						</div>
-						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
-							2
-						</div>
-						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
-							3
-						</div>
-						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
-							4
 						</div>
 					</div>
 				</div>
@@ -189,18 +180,9 @@ export default function Event() {
 				</div>
 
 				<div className="container ">
-					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+					<div className="grid grid-cols-1">
+						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-28 px-20 bg-primary-100">
 							1
-						</div>
-						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
-							2
-						</div>
-						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
-							3
-						</div>
-						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
-							4
 						</div>
 					</div>
 				</div>

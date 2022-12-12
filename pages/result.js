@@ -38,9 +38,11 @@ ChartJS.register(
 
 import { Bar } from "react-chartjs-2";
 import Link from "next/link";
-import Table from "@components/table/table";
+import FirstTable from "@components/table/first-table";
+import SecondTable from "@components/table/second-table";
+
 import WeatherCard from "@components/sidebar/weather";
-import { hariPertamaBar, hariPertamaBarMobile, optionsBar } from "@utils/data";
+import { hariPertamaBar, hariPertamaBarMobile, hariKeduaBar, hariKeduaBarMobile, optionsBar } from "@utils/data";
 
 export default function Result() {
 	return (
@@ -104,7 +106,7 @@ export default function Result() {
 							<li className="pt-12 sm:pt-5">
 								<Link
 									href="/"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl text-gray-600 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<HomeIcon className="w-4 h-4" />
@@ -117,7 +119,7 @@ export default function Result() {
 							<li>
 								<Link
 									href="/event"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<CalendarDaysIcon className="w-4 h-4" />
@@ -130,7 +132,7 @@ export default function Result() {
 							<li>
 								<Link
 									href="/result"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  bg-primary-100 text-primary hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  bg-primary-100 text-primary-500 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<ChartBarIcon className="w-4 h-4" />
@@ -143,7 +145,7 @@ export default function Result() {
 							<li>
 								<Link
 									href="/gallery"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<PhotoIcon className="w-4 h-4" />
@@ -156,7 +158,7 @@ export default function Result() {
 							<li>
 								<Link
 									href="/about"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary-500 hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<UsersIcon className="w-4 h-4" />
@@ -177,9 +179,18 @@ export default function Result() {
 					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
 						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
 							Hasil Hari Pertama
-							<p className="mt-1 text-sm font-normal text-gray-500 ">
-								Deskripsi
-							</p>
+							<div className="flex mt-2 items-center">
+								<div className="h-4 w-4 bg-[#20d69b]"></div>
+								<p className="pl-2 text-sm font-normal text-gray-500 ">
+									Suhu Cuaca [ °C ]
+								</p>
+							</div>
+							<div className="flex mt-2 items-center">
+								<div className="h-4 w-4 bg-[#0162ff]"></div>
+								<p className="pl-2 text-sm font-normal text-gray-500 ">
+									Persentase Kelembaban [ % ]
+								</p>
+							</div>
 						</caption>
 					</table>
 				</div>
@@ -190,26 +201,35 @@ export default function Result() {
 				<div className="flex sm:hidden bg-white h-fit rounded-xl p-2 my-5 ">
 					<Bar data={hariPertamaBarMobile} height={150} options={optionsBar} />
 				</div>
-				<Table />
+				<FirstTable />
 
 				<div className="sticky top-0 overflow-x-auto pl[-56px]">
 					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
 						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
-							Hasil Hari Kedua
-							<p className="mt-1 text-sm font-normal text-gray-500 ">
-								Deskripsi
-							</p>
+							Hasil Hari Pertama
+							<div className="flex mt-2 items-center">
+								<div className="h-4 w-4 bg-[#20d69b]"></div>
+								<p className="pl-2 text-sm font-normal text-gray-500 ">
+									Suhu Cuaca [ °C ]
+								</p>
+							</div>
+							<div className="flex mt-2 items-center">
+								<div className="h-4 w-4 bg-[#0162ff]"></div>
+								<p className="pl-2 text-sm font-normal text-gray-500 ">
+									Persentase Kelembaban [ % ]
+								</p>
+							</div>
 						</caption>
 					</table>
 				</div>
 				{/* second bar chart in ASC: DESK - MOB */}
 				<div className="hidden sm:flex bg-white h-fit rounded-xl my-5 ">
-					<Bar data={hariPertamaBar} height={100} options={optionsBar} />
+					<Bar data={hariKeduaBar} height={100} options={optionsBar} />
 				</div>
 				<div className="flex sm:hidden bg-white h-fit rounded-xl p-2 my-5 ">
-					<Bar data={hariPertamaBarMobile} height={150} options={optionsBar} />
+					<Bar data={hariKeduaBarMobile} height={150} options={optionsBar} />
 				</div>
-				<Table />
+				<SecondTable />
 			</div>
 
 			{/* beauty-rock */}

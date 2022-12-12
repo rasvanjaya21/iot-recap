@@ -1,4 +1,4 @@
-export default function Table() {
+export default function SecondTable() {
 	return (
 		<div className="overflow-x-auto">
 			<table className="w-full text-sm text-left text-gray-500 ">
@@ -12,130 +12,125 @@ export default function Table() {
 				<tbody>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap " > 00:00 </th>
-						<td className="py-4 px-6">00 °C</td>
-						<td className="py-4 px-6">00 %</td>
+						<td className="py-4 px-6">22 °C</td>
+						<td className="py-4 px-6">98 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap " > 01:00 </th>
-						<td className="py-4 px-6">01 °C</td>
-						<td className="py-4 px-6">01 %</td>
+						<td className="py-4 px-6">22 °C</td>
+						<td className="py-4 px-6">98 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap " > 02:00 </th>
-						<td className="py-4 px-6">02 °C</td>
-						<td className="py-4 px-6">02 %</td>
+						<td className="py-4 px-6">22 °C</td>
+						<td className="py-4 px-6">96 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap " > 03:00 </th>
-						<td className="py-4 px-6">03 °C</td>
-						<td className="py-4 px-6">03 %</td>
+						<td className="py-4 px-6">21 °C</td>
+						<td className="py-4 px-6">96 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "> 04:00
 						</th>
-						<td className="py-4 px-6">04 °C</td>
-						<td className="py-4 px-6">04 %</td>
+						<td className="py-4 px-6">21 °C</td>
+						<td className="py-4 px-6">96 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap " > 05:00 </th>
-						<td className="py-4 px-6">05 °C</td>
-						<td className="py-4 px-6">05 %</td>
+						<td className="py-4 px-6">21 °C</td>
+						<td className="py-4 px-6">95 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">06:00</th>
-						<td className="py-4 px-6">06 °C</td>
-						<td className="py-4 px-6">06 %</td>
+						<td className="py-4 px-6">22 °C</td>
+						<td className="py-4 px-6">91 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">07:00
 						</th>
-						<td className="py-4 px-6">07 °C</td>
-						<td className="py-4 px-6">07 %</td>
+						<td className="py-4 px-6">24 °C</td>
+						<td className="py-4 px-6">82 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">08:00</th>
-						<td className="py-4 px-6">08 °C</td>
-						<td className="py-4 px-6">08 %</td>
+						<td className="py-4 px-6">25 °C</td>
+						<td className="py-4 px-6">81 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">09:00</th>
-						<td className="py-4 px-6">09 °C</td>
-						<td className="py-4 px-6">09 %</td>
+						<td className="py-4 px-6">26 °C</td>
+						<td className="py-4 px-6">79 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">10:00</th>
-						<td className="py-4 px-6">10 °C</td>
-						<td className="py-4 px-6">10 %</td>
+						<td className="py-4 px-6">27 °C</td>
+						<td className="py-4 px-6">74 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">11:00</th>
-						<td className="py-4 px-6">11 °C</td>
-						<td className="py-4 px-6">11 %</td>
+						<td className="py-4 px-6">28 °C</td>
+						<td className="py-4 px-6">69 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">12:00</th>
-						<td className="py-4 px-6">12 °C</td>
-						<td className="py-4 px-6">12 %</td>
+						<td className="py-4 px-6">28 °C</td>
+						<td className="py-4 px-6">68 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">13:00</th>
-						<td className="py-4 px-6">13 °C</td>
-						<td className="py-4 px-6">13 %</td>
+						<td className="py-4 px-6">27 °C</td>
+						<td className="py-4 px-6">76 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">14:00</th>
-						<td className="py-4 px-6">14 °C</td>
-						<td className="py-4 px-6">14 %</td>
+						<td className="py-4 px-6">26 °C</td>
+						<td className="py-4 px-6">82 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">15:00</th>
-						<td className="py-4 px-6">15 °C</td>
-						<td className="py-4 px-6">15 %</td>
+						<td className="py-4 px-6">24 °C</td>
+						<td className="py-4 px-6">90 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">16:00</th>
-						<td className="py-4 px-6">16 °C</td>
-						<td className="py-4 px-6">16 %</td>
+						<td className="py-4 px-6">24 °C</td>
+						<td className="py-4 px-6">89 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">17:00</th>
-						<td className="py-4 px-6">17 °C</td>
-						<td className="py-4 px-6">17 %</td>
+						<td className="py-4 px-6">24 °C</td>
+						<td className="py-4 px-6">88 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">18:00</th>
-						<td className="py-4 px-6">18 °C</td>
-						<td className="py-4 px-6">18 %</td>
+						<td className="py-4 px-6">23 °C</td>
+						<td className="py-4 px-6">92 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">19:00</th>
-						<td className="py-4 px-6">19 °C</td>
-						<td className="py-4 px-6">19 %</td>	
+						<td className="py-4 px-6">23 °C</td>
+						<td className="py-4 px-6">92 %</td>	
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">20:00</th>
-						<td className="py-4 px-6">20 °C</td>
-						<td className="py-4 px-6">20 %</td>
+						<td className="py-4 px-6">23 °C</td>
+						<td className="py-4 px-6">94 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">21:00</th>
-						<td className="py-4 px-6">21 °C</td>
-						<td className="py-4 px-6">21 %</td>
+						<td className="py-4 px-6">23 °C</td>
+						<td className="py-4 px-6">96 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">22:00</th>
 						<td className="py-4 px-6">22 °C</td>
-						<td className="py-4 px-6">22 %</td>
+						<td className="py-4 px-6">96 %</td>
 					</tr>
 					<tr className="bg-white border-b-[0.5pt]  ">
 						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">23:00</th>
-						<td className="py-4 px-6">23 °C</td>
-						<td className="py-4 px-6">23 %</td>
-					</tr>
-					<tr className="bg-white border-b-[0.5pt]  ">
-						<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap ">00:00</th>
-						<td className="py-4 px-6">00 °C</td>
-						<td className="py-4 px-6">00 %</td>
+						<td className="py-4 px-6">22 °C</td>
+						<td className="py-4 px-6">94 %</td>
 					</tr>
 						
 				</tbody>
