@@ -56,17 +56,6 @@ module.exports = {
 					"background-repeat": "no-repeat",
 					// "position": "relative",
 				},
-				/* Hide scrollbar for IE, Edge and Firefox */
-				".no-scrollbar": {
-					"-ms-overflow-style": "none",
-					/* IE and Edge */
-					"scrollbar-width": "none",
-					/* Firefox */
-				},
-				/* Hide scrollbar for Chrome, Safari and Opera */
-				".no-scrollbar::-webkit-scrollbar": {
-					display: "none",
-				},
 				".navbar-content": {
 					display: "flex",
 					"flex-direction": "column",
