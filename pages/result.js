@@ -88,7 +88,7 @@ export default function Result() {
 
 			{/* desktop nav-bar */}
 			<div className="flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800">
-				<div className="opacity-0 sm:opacity-100 fixed flex flex-col top-0 left-0 w-42 h-full bg-white">
+				<div className="hidden fixed sm:flex flex-col top-0 left-0 w-42 h-full bg-white">
 					<div className="flex items-center pl-11 h-18 pt-8">
 						<div className="text-xl font-bold">
 							<div className="opacity-0 sm:opacity-100 fixed sm:relative inline-flex items-end">
