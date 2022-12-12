@@ -33,7 +33,6 @@ export default function Event() {
 				</Link>
 				<Link
 					href="/event"
-					
 					className="navbar-content cursor-pointer navbar-active"
 				>
 					<i className="text-[30px] bx bxs-calendar bx-tada" />
@@ -149,6 +148,62 @@ export default function Event() {
 			{/* data here */}
 			<div className="pt-10 sm:pt-0 h-full pl-5 sm:pl-56 pb-28 mr-5 sm:mr-14 bg-white">
 				{/* featured */}
+				<div className="sticky top-0 overflow-x-auto pl[-56px]">
+					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
+						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
+							Waktu Observasi
+							<p className="mt-1 text-sm font-normal text-gray-500 ">
+								Deskripsi
+							</p>
+						</caption>
+					</table>
+				</div>
+
+				<div className="container ">
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							1
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							2
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							3
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							4
+						</div>
+					</div>
+				</div>
+
+				{/* featured */}
+				<div className="sticky top-0 overflow-x-auto pl[-56px]">
+					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
+						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
+							Lokasi Observasi
+							<p className="mt-1 text-sm font-normal text-gray-500 ">
+								Deskripsi
+							</p>
+						</caption>
+					</table>
+				</div>
+
+				<div className="container ">
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							1
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							2
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							3
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							4
+						</div>
+					</div>
+				</div>
 			</div>
 
 			{/* beauty-rock */}

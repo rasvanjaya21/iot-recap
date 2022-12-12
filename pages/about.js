@@ -21,7 +21,7 @@ export default function About() {
 			<Head>
 				<title>Profile Observer</title>
 			</Head>
-			
+
 			{/* mobile nav-bar */}
 			<div className="flex fixed sm:hidden bg-white px-2 bottom-[-0.7px] w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[10]">
 				<Link href="/" className="navbar-content cursor-pointer">
@@ -48,7 +48,10 @@ export default function About() {
 						<b>Galeri</b>
 					</span>
 				</Link>
-				<Link href="/about"  className="navbar-content cursor-pointer navbar-active">
+				<Link
+					href="/about"
+					className="navbar-content cursor-pointer navbar-active"
+				>
 					<i className="text-[30px] bx bxs-group bx-tada" />
 					<span className="pt-0.5 text-xs">
 						<b>Profile</b>
@@ -143,8 +146,46 @@ export default function About() {
 
 			{/* data here */}
 			<div className="pt-10 sm:pt-0 h-full pl-5 sm:pl-56 pb-28 mr-5 sm:mr-14 bg-white">
-
 				{/* featured */}
+				<div className="sticky top-0 overflow-x-auto pl[-56px]">
+					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
+						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
+							Kelompok Observasi
+							<p className="mt-1 text-sm font-normal text-gray-500 ">
+								Deskripsi
+							</p>
+						</caption>
+					</table>
+				</div>
+
+				<div className="container ">
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							1
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							2
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							3
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							4
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							5
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							6
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							7
+						</div>
+						<div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl py-28 px-20 bg-gray-100">
+							8
+						</div>
+					</div>
+				</div>
 			</div>
 
 			{/* beauty-rock */}

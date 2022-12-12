@@ -176,7 +176,7 @@ export default function Result() {
 				<div className="sticky top-0  overflow-x-auto pl[-56px] ">
 					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
 						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
-							Data Hari Pertama
+							Hasil Hari Pertama
 							<p className="mt-1 text-sm font-normal text-gray-500 ">
 								Deskripsi
 							</p>
@@ -195,7 +195,7 @@ export default function Result() {
 				<div className="sticky top-0 overflow-x-auto pl[-56px]">
 					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
 						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
-							Data Hari Kedua
+							Hasil Hari Kedua
 							<p className="mt-1 text-sm font-normal text-gray-500 ">
 								Deskripsi
 							</p>
