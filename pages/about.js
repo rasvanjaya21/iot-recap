@@ -2,43 +2,15 @@ import Head from "next/head";
 
 import {
 	HomeIcon,
-	EnvelopeIcon,
-	ChatBubbleBottomCenterTextIcon,
-	BellIcon,
-	ClipboardDocumentListIcon,
+	CalendarDaysIcon,
+	ChartBarIcon,
+	PhotoIcon,
 	UsersIcon,
-	UserIcon,
-	Cog6ToothIcon,
-	ArrowRightOnRectangleIcon,
 } from "@heroicons/react/24/outline";
 
 import { PencilSquareIcon } from "@heroicons/react/24/solid";
 
 import React from "react";
-import {
-	Chart as ChartJS,
-	LineController,
-	LineElement,
-	PointElement,
-	CategoryScale,
-	LinearScale,
-	Filler,
-	Legend,
-	Title,
-	Tooltip,
-} from "chart.js/auto";
-
-ChartJS.register(
-	LineController,
-	LineElement,
-	PointElement,
-	CategoryScale,
-	LinearScale,
-	Filler,
-	Legend,
-	Title,
-	Tooltip
-);
 
 import Link from "next/link";
 import WeatherCard from "@components/sidebar/weather";
@@ -51,7 +23,7 @@ export default function About() {
 			</Head>
 			
 			{/* mobile nav-bar */}
-			<div className="flex fixed sm:hidden bg-white px-2 bottom-[-0.7px] w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[5]">				<Link href="/" className="navbar-content cursor-pointer">
+			<div className="flex fixed sm:hidden bg-white px-2 bottom-[-0.7px] w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[10]">				<Link href="/" className="navbar-content cursor-pointer">
 					<i className="navbar-icon bx bx-home" />
 					<span className="pt-0.5 text-xs">
 						<b>Beranda</b>
@@ -75,10 +47,10 @@ export default function About() {
 						<b>Galeri</b>
 					</span>
 				</Link>
-				<Link href="/about" onClick={(event) => event.preventDefault()} className="navbar-content cursor-pointer navbar-active">
+				<Link href="/about"  className="navbar-content cursor-pointer navbar-active">
 					<i className="navbar-icon bx bxs-group bx-tada" />
 					<span className="pt-0.5 text-xs">
-						<b>Tentang</b>
+						<b>Profile</b>
 					</span>
 				</Link>
 			</div>
@@ -98,10 +70,10 @@ export default function About() {
 					<div className="overflow-y-auto overflow-x-hidden  flex-grow">
 						<ul className="flex flex-col py-4 space-y-1">
 							<WeatherCard />
-							<li className="pt-12 sm:pt-0">
+							<li className="pt-12 sm:pt-5">
 								<Link
 									href="/"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<HomeIcon className="w-4 h-4" />
@@ -114,10 +86,10 @@ export default function About() {
 							<li>
 								<Link
 									href="/result"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
-										<EnvelopeIcon className="w-4 h-4" />
+										<CalendarDaysIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
 										Waktu
@@ -127,10 +99,10 @@ export default function About() {
 							<li>
 								<Link
 									href=""
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
-										<ChatBubbleBottomCenterTextIcon className="w-4 h-4" />
+										<ChartBarIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
 										Hasil
@@ -139,11 +111,11 @@ export default function About() {
 							</li>
 							<li>
 								<Link
-									href="#"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									href="/gallery"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
-										<BellIcon className="w-4 h-4" />
+										<PhotoIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
 										Galeri
@@ -152,14 +124,14 @@ export default function About() {
 							</li>
 							<li>
 								<Link
-									href="#"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									href="/about"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl bg-primary-100 text-primary hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
-										<ClipboardDocumentListIcon className="w-4 h-4" />
+										<UsersIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
-										Tentang
+										Profile
 									</span>
 								</Link>
 							</li>

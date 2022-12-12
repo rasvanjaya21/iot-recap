@@ -3,43 +3,15 @@ import Typing from "@utils/typing";
 
 import {
 	HomeIcon,
-	EnvelopeIcon,
-	ChatBubbleBottomCenterTextIcon,
-	BellIcon,
-	ClipboardDocumentListIcon,
+	CalendarDaysIcon,
+	ChartBarIcon,
+	PhotoIcon,
 	UsersIcon,
-	UserIcon,
-	Cog6ToothIcon,
-	ArrowRightOnRectangleIcon,
 } from "@heroicons/react/24/outline";
 
 import { PencilSquareIcon } from "@heroicons/react/24/solid";
 
 import React from "react";
-import {
-	Chart as ChartJS,
-	LineController,
-	LineElement,
-	PointElement,
-	CategoryScale,
-	LinearScale,
-	Filler,
-	Legend,
-	Title,
-	Tooltip,
-} from "chart.js/auto";
-
-ChartJS.register(
-	LineController,
-	LineElement,
-	PointElement,
-	CategoryScale,
-	LinearScale,
-	Filler,
-	Legend,
-	Title,
-	Tooltip
-);
 
 import Link from "next/link";
 import WeatherCard from "@components/sidebar/weather";
@@ -52,9 +24,9 @@ export default function Index() {
 			</Head>
 
 			{/* mobile nav-bar */}
-			<div className="flex fixed sm:hidden bg-white px-2 bottom-[-0.7px] w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[5]">				<Link
+			<div className="flex fixed sm:hidden bg-white px-2 bottom-[-0.7px] w-full h-[75px] shadow-[0_0_3px_0_rgba(0,0,0,0.20)] z-[10]">				<Link
 					href="/"
-					onClick={(event) => event.preventDefault()}
+					
 					className="navbar-content cursor-pointer navbar-active"
 				>
 					<i className="navbar-icon bx bxs-home bx-tada" />
@@ -83,7 +55,7 @@ export default function Index() {
 				<Link href="/about" className="navbar-content cursor-pointer ">
 					<i className="navbar-icon bx bx-group" />
 					<span className="pt-0.5 text-xs">
-						<b>Tentang</b>
+						<b>Profile</b>
 					</span>
 				</Link>
 			</div>
@@ -103,10 +75,10 @@ export default function Index() {
 					<div className="overflow-y-auto overflow-x-hidden  flex-grow">
 						<ul className="flex flex-col py-4 space-y-1">
 							<WeatherCard />
-							<li className="pt-12 sm:pt-0">
+							<li className="pt-12 sm:pt-5">
 								<Link
 									href="/"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl bg-primary-100 text-primary hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
 										<HomeIcon className="w-4 h-4" />
@@ -118,11 +90,11 @@ export default function Index() {
 							</li>
 							<li>
 								<Link
-									href="/result"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									href="/event"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
-										<EnvelopeIcon className="w-4 h-4" />
+										<CalendarDaysIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
 										Waktu
@@ -131,11 +103,11 @@ export default function Index() {
 							</li>
 							<li>
 								<Link
-									href=""
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									href="/result"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
-										<ChatBubbleBottomCenterTextIcon className="w-4 h-4" />
+										<ChartBarIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
 										Hasil
@@ -144,11 +116,11 @@ export default function Index() {
 							</li>
 							<li>
 								<Link
-									href="#"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									href="/gallery"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
-										<BellIcon className="w-4 h-4" />
+										<PhotoIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
 										Galeri
@@ -157,14 +129,14 @@ export default function Index() {
 							</li>
 							<li>
 								<Link
-									href="#"
-									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary border-l-4 border-transparent"
+									href="/about"
+									className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-primary hover:bg-primary-100 border-l-4 border-transparent"
 								>
 									<span className="inline-flex justify-center items-center ml-11">
-										<ClipboardDocumentListIcon className="w-4 h-4" />
+										<UsersIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
-										Tentang
+										Profile
 									</span>
 								</Link>
 							</li>

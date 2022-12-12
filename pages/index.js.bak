@@ -1,10 +1,10 @@
 // import Head from "next/head";
 // import {
 // 	HomeIcon,
-// 	EnvelopeIcon,
-// 	ChatBubbleBottomCenterTextIcon,
-// 	BellIcon,
-// 	ClipboardDocumentListIcon,
+// 	CalendarDaysIcon,
+// 	ChartBarIcon,
+// 	PhotoIcon,
+// 	UsersIcon,
 // 	UsersIcon,
 // 	UserIcon,
 // 	Cog6ToothIcon,
@@ -269,7 +269,7 @@
 // 										className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-[#3c89f5] border-l-4 border-transparent"
 // 									>
 // 										<span className="inline-flex justify-center items-center ml-11">
-// 											<EnvelopeIcon className="w-4 h-4" />
+// 											<CalendarDaysIcon className="w-4 h-4" />
 // 										</span>
 // 										<span className="ml-3 text-sm tracking-wide truncate">
 // 											Waktu
@@ -282,7 +282,7 @@
 // 										className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-[#3c89f5] border-l-4 border-transparent"
 // 									>
 // 										<span className="inline-flex justify-center items-center ml-11">
-// 											<ChatBubbleBottomCenterTextIcon className="w-4 h-4" />
+// 											<ChartBarIcon className="w-4 h-4" />
 // 										</span>
 // 										<span className="ml-3 text-sm tracking-wide truncate">
 // 											Messages
@@ -295,7 +295,7 @@
 // 										className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-[#3c89f5] border-l-4 border-transparent"
 // 									>
 // 										<span className="inline-flex justify-center items-center ml-11">
-// 											<BellIcon className="w-4 h-4" />
+// 											<PhotoIcon className="w-4 h-4" />
 // 										</span>
 // 										<span className="ml-3 text-sm tracking-wide truncate">
 // 											Notifications
@@ -308,7 +308,7 @@
 // 										className="relative flex flex-row items-center h-11 focus:outline-none rounded-r-xl  text-gray-600 hover:text-[#3c89f5] border-l-4 border-transparent"
 // 									>
 // 										<span className="inline-flex justify-center items-center ml-11">
-// 											<ClipboardDocumentListIcon className="w-4 h-4" />
+// 											<UsersIcon className="w-4 h-4" />
 // 										</span>
 // 										<span className="ml-3 text-sm tracking-wide truncate">
 // 											Available Tasks
