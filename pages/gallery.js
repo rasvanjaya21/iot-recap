@@ -9,9 +9,6 @@ import {
 } from "@heroicons/react/24/outline";
 
 import { PencilSquareIcon } from "@heroicons/react/24/solid";
-
-// import React from "react";
-
 import Link from "next/link";
 import WeatherCard from "@components/sidebar/weather";
 
@@ -33,7 +30,7 @@ export default function Gallery() {
 				<Link href="/event" className="navbar-content cursor-pointer ">
 					<i className="text-[30px] bx bx-calendar" />
 					<span className="pt-0.5 text-xs">
-						<b>Waktu</b>
+						<b>Analisa</b>
 					</span>
 				</Link>
 				<Link href="/result" className="navbar-content cursor-pointer ">
@@ -96,7 +93,7 @@ export default function Gallery() {
 										<CalendarDaysIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
-										Waktu
+										Analisa
 									</span>
 								</Link>
 							</li>
@@ -147,42 +144,31 @@ export default function Gallery() {
 			{/* data here */}
 			<div className="pt-10 sm:pt-0 h-full pl-5 sm:pl-56 pb-28 mr-5 sm:mr-14 bg-white">
 				{/* featured */}
-				<div className="sticky top-0 overflow-x-auto pl[-56px]">
+				<div className="overflow-x-auto pl[-56px]">
 					<table className="pt-20 w-full text-sm text-left text-gray-500 ">
 						<caption className="py-5 sm:py-5 sm:pt-10 text-lg font-semibold text-left text-gray-900 bg-white  ">
 							Gallery Observasi
 							<p className="mt-1 text-sm font-normal text-gray-500 ">
-								Deskripsi
+								Lampiran foto hasil observasi
 							</p>
 						</caption>
 					</table>
 				</div>
 
 				<div className="container ">
-					<div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
-						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-20 sm:py-28 sm:px-20 bg-primary-100">
-							1
+					<div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 pb-10">
+						<div className=" flex   text-6xl py-20 sm:py-28 px-5 sm:px-10 rounded-xl  bg-[#FFEAF1]">
+							{/* card 🌡️ */}
+							
 						</div>
-						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-20 sm:py-28 sm:px-20 bg-primary-100">
-							2
+						<div className="flex  text-6xl   rounded-xl py-20 sm:py-28 px-5 sm:px-10 bg-[#D8D7FF]">
+							
 						</div>
-						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-20 sm:py-28 sm:px-20 bg-primary-100">
-							3
+						<div className=" flex  text-6xl   rounded-xl py-20 sm:py-28 px-5 sm:px-10 bg-[#FFF2CB]">
+							
 						</div>
-						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-20 sm:py-28 sm:px-20 bg-primary-100">
-							4
-						</div>
-						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-20 sm:py-28 sm:px-20 bg-primary-100">
-							5
-						</div>
-						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-20 sm:py-28 sm:px-20 bg-primary-100">
-							6
-						</div>
-						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-20 sm:py-28 sm:px-20 bg-primary-100">
-							7
-						</div>
-						<div className="text-secondary-400 flex justify-center text-6xl   rounded-xl py-20 sm:py-28 sm:px-20 bg-primary-100">
-							8
+						<div className=" flex  text-6xl   rounded-xl py-20 sm:py-28 px-5 sm:px-10 bg-[#FFCED7]">
+							
 						</div>
 					</div>
 				</div>

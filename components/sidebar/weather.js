@@ -33,7 +33,7 @@ export default function WeatherCard(){
 				</div>
 				<p className="text-gray-700 mb-2">Rata - Rata</p>
 				<div className="text-xs font-bold text-gray-900 mb-2">
-					~ 32º C<span className="font-normal text-gray-700 mx-1"> | </span> ~ 20 %
+					~ 26.88 º C<span className="font-normal text-gray-700 mx-1"> | </span> ~ 87.16 %
 				</div>
 			</div>
 		);

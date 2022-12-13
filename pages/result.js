@@ -45,6 +45,7 @@ import WeatherCard from "@components/sidebar/weather";
 import { hariPertamaBar, hariPertamaBarMobile, hariKeduaBar, hariKeduaBarMobile, optionsBar } from "@utils/data";
 
 export default function Result() {
+
 	return (
 		<>
 			<Head>
@@ -62,7 +63,7 @@ export default function Result() {
 				<Link href="/event" className="navbar-content cursor-pointer ">
 					<i className="text-[30px] bx bx-calendar" />
 					<span className="pt-0.5 text-xs">
-						<b>Waktu</b>
+						<b>Analisa</b>
 					</span>
 				</Link>
 				<Link
@@ -125,7 +126,7 @@ export default function Result() {
 										<CalendarDaysIcon className="w-4 h-4" />
 									</span>
 									<span className="ml-3 text-sm tracking-wide truncate">
-										Waktu
+										Analisa
 									</span>
 								</Link>
 							</li>
@@ -191,6 +192,12 @@ export default function Result() {
 									Persentase Kelembaban [ % ]
 								</p>
 							</div>
+							<div className="flex mt-2 items-center">
+								<div className="h-4 w-4 bg-secondary"></div>
+								<p className="pl-2 text-sm font-normal text-gray-500 ">
+									Minggu, 11 Desember 2022
+								</p>
+							</div>
 						</caption>
 					</table>
 				</div>
@@ -217,6 +224,12 @@ export default function Result() {
 								<div className="h-4 w-4 bg-[#0162ff]"></div>
 								<p className="pl-2 text-sm font-normal text-gray-500 ">
 									Persentase Kelembaban [ % ]
+								</p>
+							</div>
+							<div className="flex mt-2 items-center">
+								<div className="h-4 w-4 bg-secondary"></div>
+								<p className="pl-2 text-sm font-normal text-gray-500 ">
+									Senin, 12 Desember 2022
 								</p>
 							</div>
 						</caption>
