@@ -75,13 +75,13 @@ module.exports = {
 					right: "0",
 					bottom: "0",
 					left: "0",
-					height: "200px",
+					height: "50px",
 					background: [
 						"url(data:image/svg+xml;base64,alotofcodehere)",
-						"-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)))",
-						"-webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%)",
-						"-ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%)",
-						"linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%)",
+						"-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1)))",
+						"-webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%)",
+						"-ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%)",
+						"linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%)",
 					],
 				},
 			};
