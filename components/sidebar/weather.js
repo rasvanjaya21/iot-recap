@@ -3,7 +3,7 @@ export default function WeatherCard(){
 			<div className="ml-11 w-36 border b-gray-400 rounded-xl flex flex-col justify-center items-center text-center p-2 bg-white">
 				<div className="text-md font-bold flex flex-col text-gray-900 mt-2">
 					<span className="text-xs text-left -ml-4">📍Lowokwaru, Malang</span>
-					<span className="font-light text-left pb-6 text-[9px]">
+					<span className="font-light text-left pb-2 text-[9px]">
 						11 - 12 Desember 2022
 					</span>
 				</div>
