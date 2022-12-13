@@ -12,11 +12,9 @@ Router.events.on("routeChangeError", nProgress.done);
 Router.events.on("routeChangeComplete", nProgress.done);
 
 function MyApp({ Component, pageProps }) {
-
 	const router = useRouter();
-	AOS.init({once: true,});
-
 	React.useEffect(() => {
+		AOS.init({ once: true });
 		const handleRouteChange = (url) => {
 				window.gtag("config", process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS, {
 					page_path: url,
